@@ -6,14 +6,10 @@ app = Flask(__name__)
 def main_python():
     control = 0
     for i in range(100):
-        print_hello()
         control += i
 
     return control
 
-def print_hello():
-    print("Hello")
-    return "Hello"
 
 # @app.route('/')
 # def source():
