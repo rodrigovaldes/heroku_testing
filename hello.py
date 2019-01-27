@@ -7,8 +7,9 @@ def main_python():
     control = 0
     for i in range(100):
         control += i
+    str_control = str(control)
 
-    return control
+    return str_control
 
 
 # @app.route('/')
