@@ -4,5 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def source():
- html = 'Hello World!'
- return html
+    for i in range(100):
+        print(i)
+    
+    html = 'Hello World!'
+    return html
